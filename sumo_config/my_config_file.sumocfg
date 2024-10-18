@@ -1,0 +1,18 @@
+<configuration>
+   <input>
+     <net-file value="JingZan.net.xml"/>
+     <route-files value="my_route1.rou.xml"/>
+   </input>
+   <time>
+     <begin value="0"/>
+     <end value="1000"/>
+   </time>
+   <gui_only>
+     <start value="t"/>
+     <quit-on-end value="t"/>
+   </gui_only>
+   <processing>
+		<lanechange.duration value="5"/>
+	</processing>
+</configuration>
+

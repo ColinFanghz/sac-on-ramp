@@ -1,0 +1,30 @@
+<routes>
+
+   <vType id="carA" accel="2.5" decel="4.5" emergencyDecel="9.0" length="5" color="1,1,0" vClass="passenger" maxSpeed="35" carFollowModel="IDM" probability="0.8"/>
+
+   <vTypeDistribution id="typedist1">
+        <vType id="motorcycle" accel="4.0" decel="4.5" emergencyDecel="9.0" length="2" color="0,1,1" vClass="motorcycle" maxSpeed="40" carFollowModel="IDM" probability="0.1"/>
+        <vType id="car" accel="2.5" decel="4.5" emergencyDecel="9.0" length="5" color="0,1,0" vClass="passenger" maxSpeed="35" carFollowModel="IDM" probability="0.8"/>
+        <vType id="truck" accel="1.8" decel="4.5" emergencyDecel="9.0"  length="15" color="1,0,0" vClass="truck" maxSpeed="30" carFollowModel="IDM" probability="0.1"/>
+   </vTypeDistribution>
+
+   <route id="route1" edges="gneE0 gneE1 gneE2" />
+   <route id="route2" edges="gneE3 gneE1 gneE2" />
+   <route id="route3" edges="gneE1 gneE2" />
+
+<!--   <flow id="f2" color="0,1,0" begin="0" end="12" probability="0.4" route="route2" type="CarA"/>-->
+<!--   <flow id="f1" color="1,0,0" begin="0" end="14" departLane="0" probability="0.7" route="route1" type="CarA"/>-->
+<!--   <flow id="f3" color="0,0,1" begin="0" end="14" departLane="2" probability="0.35" arrivalLane="0" route="route3" type="CarA"/>-->
+<!--   <flow id="f9" color="0,0,1" begin="0" end="14" departLane="1" probability="0.35" arrivalLane="1" route="route1" type="CarA"/>-->
+<!--   <flow id="f4" color="1,1,0" begin="0" end="14" departLane="2" probability="0.7" route="route1" type="CarA"/>-->
+
+<!--   <vehicle id="self_car" depart="15" departLane="0" departPos="3" departSpeed="1" route="route2" type="CarA" color="0,1,1"/>-->
+
+<!--   <flow id="f5" color="1,0,0" begin="16" end="100" departLane="0" probability="0.7" route="route1" type="CarA"/>-->
+<!--   <flow id="f7" color="0,0,1" begin="16" end="100" departLane="2" probability="0.35" arrivalLane="0" route="route3" type="CarA"/>-->
+<!--   <flow id="f10" color="0,0,1" begin="16" end="100" departLane="1" probability="0.35" arrivalLane="1" route="route1" type="CarA"/>-->
+<!--   <flow id="f8" color="1,1,0" begin="16" end="100" departLane="2" probability="0.7" route="route1" type="CarA"/>-->
+<!--   <flow id="f6" color="0,1,0" begin="18" end="100" probability="0.4" route="route2" type="CarA"/>-->
+
+</routes>
+
